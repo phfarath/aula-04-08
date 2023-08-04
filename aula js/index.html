@@ -8,13 +8,24 @@
 </head>
 
 <body>
-    <h1 id="Titulo">Meu Titulo</h1>
+    <h1 id="titulo">Meu Titulo</h1>
+
+    <p>Nome: <input type="text" id="idnome"></p>
+    <button onclick="mudar()">Clique Aqui</button>
+
+<hr><!--  separacao entre as funcionalidades  -->
+
+<h1>Classificação</h1>
+<p>Primeiro Colocado: <span class="colocado"></span></p>
+<p>Segundo Colocado: <span class="colocado"></span></p>
+<p>Terceiro Colocado: <span class="colocado"></span></p>
+<p>Podium:<input type="text" id="novo"></p>
+<p>Colocação:<input type="number" id="posicao" min="1" max="3"></p>
+<button onclick="inserir()">Adicionar</button>
 
 
-
-
-    
-    <script src="script.js"></script>
+    <script src="javascript.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
